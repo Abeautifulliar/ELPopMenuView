@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A6A29041D8F79F500267B42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A29031D8F79F500267B42 /* main.m */; };
+		7A6A29071D8F79F500267B42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A29061D8F79F500267B42 /* AppDelegate.m */; };
+		7A6A290A1D8F79F500267B42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A29091D8F79F500267B42 /* ViewController.m */; };
+		7A6A290D1D8F79F500267B42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6A290B1D8F79F500267B42 /* Main.storyboard */; };
+		7A6A290F1D8F79F500267B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6A290E1D8F79F500267B42 /* Assets.xcassets */; };
+		7A6A29121D8F79F500267B42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6A29101D8F79F500267B42 /* LaunchScreen.storyboard */; };
+		7A6A291D1D8F79F600267B42 /* ELPopMenuViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A291C1D8F79F600267B42 /* ELPopMenuViewTests.m */; };
+		7A6A29281D8F79F600267B42 /* ELPopMenuViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A29271D8F79F600267B42 /* ELPopMenuViewUITests.m */; };
+		7A6A29381D8F7A2C00267B42 /* ELPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A29371D8F7A2C00267B42 /* ELPopMenuView.m */; };
+		7A6A293B1D8F7E3E00267B42 /* bg_arrow_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6A293A1D8F7E3E00267B42 /* bg_arrow_up@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A6A29191D8F79F600267B42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A6A28F71D8F79F500267B42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A6A28FE1D8F79F500267B42;
+			remoteInfo = ELPopMenuView;
+		};
+		7A6A29241D8F79F600267B42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A6A28F71D8F79F500267B42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A6A28FE1D8F79F500267B42;
+			remoteInfo = ELPopMenuView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A6A28FF1D8F79F500267B42 /* ELPopMenuView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELPopMenuView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A6A29031D8F79F500267B42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A6A29051D8F79F500267B42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A6A29061D8F79F500267B42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A6A29081D8F79F500267B42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7A6A29091D8F79F500267B42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7A6A290C1D8F79F500267B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A6A290E1D8F79F500267B42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A6A29111D8F79F500267B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A6A29131D8F79F500267B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A6A29181D8F79F600267B42 /* ELPopMenuViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELPopMenuViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A6A291C1D8F79F600267B42 /* ELPopMenuViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELPopMenuViewTests.m; sourceTree = "<group>"; };
+		7A6A291E1D8F79F600267B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A6A29231D8F79F600267B42 /* ELPopMenuViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELPopMenuViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A6A29271D8F79F600267B42 /* ELPopMenuViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELPopMenuViewUITests.m; sourceTree = "<group>"; };
+		7A6A29291D8F79F600267B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A6A29361D8F7A2C00267B42 /* ELPopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELPopMenuView.h; sourceTree = "<group>"; };
+		7A6A29371D8F7A2C00267B42 /* ELPopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELPopMenuView.m; sourceTree = "<group>"; };
+		7A6A293A1D8F7E3E00267B42 /* bg_arrow_up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_arrow_up@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A6A28FC1D8F79F500267B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6A29151D8F79F600267B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6A29201D8F79F600267B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A6A28F61D8F79F500267B42 = {
+			isa = PBXGroup;
+			children = (
+				7A6A29011D8F79F500267B42 /* ELPopMenuView */,
+				7A6A291B1D8F79F600267B42 /* ELPopMenuViewTests */,
+				7A6A29261D8F79F600267B42 /* ELPopMenuViewUITests */,
+				7A6A29001D8F79F500267B42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A6A29001D8F79F500267B42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A6A28FF1D8F79F500267B42 /* ELPopMenuView.app */,
+				7A6A29181D8F79F600267B42 /* ELPopMenuViewTests.xctest */,
+				7A6A29231D8F79F600267B42 /* ELPopMenuViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A6A29011D8F79F500267B42 /* ELPopMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				7A6A29351D8F7A0900267B42 /* ELPopMenuView */,
+				7A6A29051D8F79F500267B42 /* AppDelegate.h */,
+				7A6A29061D8F79F500267B42 /* AppDelegate.m */,
+				7A6A29081D8F79F500267B42 /* ViewController.h */,
+				7A6A29091D8F79F500267B42 /* ViewController.m */,
+				7A6A290B1D8F79F500267B42 /* Main.storyboard */,
+				7A6A290E1D8F79F500267B42 /* Assets.xcassets */,
+				7A6A29101D8F79F500267B42 /* LaunchScreen.storyboard */,
+				7A6A29131D8F79F500267B42 /* Info.plist */,
+				7A6A29021D8F79F500267B42 /* Supporting Files */,
+			);
+			path = ELPopMenuView;
+			sourceTree = "<group>";
+		};
+		7A6A29021D8F79F500267B42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A6A29391D8F7E1A00267B42 /* Resource */,
+				7A6A29031D8F79F500267B42 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A6A291B1D8F79F600267B42 /* ELPopMenuViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A6A291C1D8F79F600267B42 /* ELPopMenuViewTests.m */,
+				7A6A291E1D8F79F600267B42 /* Info.plist */,
+			);
+			path = ELPopMenuViewTests;
+			sourceTree = "<group>";
+		};
+		7A6A29261D8F79F600267B42 /* ELPopMenuViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A6A29271D8F79F600267B42 /* ELPopMenuViewUITests.m */,
+				7A6A29291D8F79F600267B42 /* Info.plist */,
+			);
+			path = ELPopMenuViewUITests;
+			sourceTree = "<group>";
+		};
+		7A6A29351D8F7A0900267B42 /* ELPopMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				7A6A29361D8F7A2C00267B42 /* ELPopMenuView.h */,
+				7A6A29371D8F7A2C00267B42 /* ELPopMenuView.m */,
+			);
+			name = ELPopMenuView;
+			sourceTree = "<group>";
+		};
+		7A6A29391D8F7E1A00267B42 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7A6A293A1D8F7E3E00267B42 /* bg_arrow_up@3x.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A6A28FE1D8F79F500267B42 /* ELPopMenuView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A6A292C1D8F79F600267B42 /* Build configuration list for PBXNativeTarget "ELPopMenuView" */;
+			buildPhases = (
+				7A6A28FB1D8F79F500267B42 /* Sources */,
+				7A6A28FC1D8F79F500267B42 /* Frameworks */,
+				7A6A28FD1D8F79F500267B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ELPopMenuView;
+			productName = ELPopMenuView;
+			productReference = 7A6A28FF1D8F79F500267B42 /* ELPopMenuView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A6A29171D8F79F600267B42 /* ELPopMenuViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A6A292F1D8F79F600267B42 /* Build configuration list for PBXNativeTarget "ELPopMenuViewTests" */;
+			buildPhases = (
+				7A6A29141D8F79F600267B42 /* Sources */,
+				7A6A29151D8F79F600267B42 /* Frameworks */,
+				7A6A29161D8F79F600267B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A6A291A1D8F79F600267B42 /* PBXTargetDependency */,
+			);
+			name = ELPopMenuViewTests;
+			productName = ELPopMenuViewTests;
+			productReference = 7A6A29181D8F79F600267B42 /* ELPopMenuViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A6A29221D8F79F600267B42 /* ELPopMenuViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A6A29321D8F79F600267B42 /* Build configuration list for PBXNativeTarget "ELPopMenuViewUITests" */;
+			buildPhases = (
+				7A6A291F1D8F79F600267B42 /* Sources */,
+				7A6A29201D8F79F600267B42 /* Frameworks */,
+				7A6A29211D8F79F600267B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A6A29251D8F79F600267B42 /* PBXTargetDependency */,
+			);
+			name = ELPopMenuViewUITests;
+			productName = ELPopMenuViewUITests;
+			productReference = 7A6A29231D8F79F600267B42 /* ELPopMenuViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A6A28F71D8F79F500267B42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ElegantLiar;
+				TargetAttributes = {
+					7A6A28FE1D8F79F500267B42 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					7A6A29171D8F79F600267B42 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 7A6A28FE1D8F79F500267B42;
+					};
+					7A6A29221D8F79F600267B42 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 7A6A28FE1D8F79F500267B42;
+					};
+				};
+			};
+			buildConfigurationList = 7A6A28FA1D8F79F500267B42 /* Build configuration list for PBXProject "ELPopMenuView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A6A28F61D8F79F500267B42;
+			productRefGroup = 7A6A29001D8F79F500267B42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A6A28FE1D8F79F500267B42 /* ELPopMenuView */,
+				7A6A29171D8F79F600267B42 /* ELPopMenuViewTests */,
+				7A6A29221D8F79F600267B42 /* ELPopMenuViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A6A28FD1D8F79F500267B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6A29121D8F79F500267B42 /* LaunchScreen.storyboard in Resources */,
+				7A6A290F1D8F79F500267B42 /* Assets.xcassets in Resources */,
+				7A6A290D1D8F79F500267B42 /* Main.storyboard in Resources */,
+				7A6A293B1D8F7E3E00267B42 /* bg_arrow_up@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6A29161D8F79F600267B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6A29211D8F79F600267B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A6A28FB1D8F79F500267B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6A290A1D8F79F500267B42 /* ViewController.m in Sources */,
+				7A6A29071D8F79F500267B42 /* AppDelegate.m in Sources */,
+				7A6A29381D8F7A2C00267B42 /* ELPopMenuView.m in Sources */,
+				7A6A29041D8F79F500267B42 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6A29141D8F79F600267B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6A291D1D8F79F600267B42 /* ELPopMenuViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6A291F1D8F79F600267B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6A29281D8F79F600267B42 /* ELPopMenuViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A6A291A1D8F79F600267B42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A6A28FE1D8F79F500267B42 /* ELPopMenuView */;
+			targetProxy = 7A6A29191D8F79F600267B42 /* PBXContainerItemProxy */;
+		};
+		7A6A29251D8F79F600267B42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A6A28FE1D8F79F500267B42 /* ELPopMenuView */;
+			targetProxy = 7A6A29241D8F79F600267B42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A6A290B1D8F79F500267B42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A6A290C1D8F79F500267B42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A6A29101D8F79F500267B42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A6A29111D8F79F500267B42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A6A292A1D8F79F600267B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A6A292B1D8F79F600267B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A6A292D1D8F79F600267B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ELPopMenuView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EL.ELPopMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7A6A292E1D8F79F600267B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ELPopMenuView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EL.ELPopMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7A6A29301D8F79F600267B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ELPopMenuViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EL.ELPopMenuViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ELPopMenuView.app/ELPopMenuView";
+			};
+			name = Debug;
+		};
+		7A6A29311D8F79F600267B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ELPopMenuViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EL.ELPopMenuViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ELPopMenuView.app/ELPopMenuView";
+			};
+			name = Release;
+		};
+		7A6A29331D8F79F600267B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ELPopMenuViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EL.ELPopMenuViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ELPopMenuView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7A6A29341D8F79F600267B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ELPopMenuViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EL.ELPopMenuViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ELPopMenuView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A6A28FA1D8F79F500267B42 /* Build configuration list for PBXProject "ELPopMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A6A292A1D8F79F600267B42 /* Debug */,
+				7A6A292B1D8F79F600267B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A6A292C1D8F79F600267B42 /* Build configuration list for PBXNativeTarget "ELPopMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A6A292D1D8F79F600267B42 /* Debug */,
+				7A6A292E1D8F79F600267B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A6A292F1D8F79F600267B42 /* Build configuration list for PBXNativeTarget "ELPopMenuViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A6A29301D8F79F600267B42 /* Debug */,
+				7A6A29311D8F79F600267B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A6A29321D8F79F600267B42 /* Build configuration list for PBXNativeTarget "ELPopMenuViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A6A29331D8F79F600267B42 /* Debug */,
+				7A6A29341D8F79F600267B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A6A28F71D8F79F500267B42 /* Project object */;
+}
